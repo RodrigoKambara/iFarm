@@ -49,7 +49,7 @@ class CarregaFotoActivity : AppCompatActivity() {
 
             if (requestCode == CAMERA_CODE) {
                 val cameraImage: Bitmap = data!!.extras!!.get("data") as Bitmap
-                //foto.setImageBitMap(cameraImage)
+                foto.setImageBitmap(cameraImage)
             }
         }
     }

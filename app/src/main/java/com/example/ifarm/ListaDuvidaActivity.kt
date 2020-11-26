@@ -43,8 +43,8 @@ class ListaDuvidaActivity : AppCompatActivity() {
             val intent = Intent(this, LocalizacaoActivity::class.java)
             startActivity(intent)
 
-//            val intent = Intent(this, CarregaFotoActivity::class.java)
-//            startActivity(intent)
+            /*val intent = Intent(this, CarregaFotoActivity::class.java)
+            startActivity(intent)*/
         }
 
     }
